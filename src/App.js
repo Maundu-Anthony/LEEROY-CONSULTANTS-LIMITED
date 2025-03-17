@@ -1,5 +1,14 @@
 import React from 'react';
-import { FaHandshake, FaBrain, FaBalanceScale, FaChalkboardTeacher, FaPhone, FaEnvelope } from 'react-icons/fa'; // Removed FaMapMarkerAlt
+import { 
+  FaHandshake, 
+  FaBrain, 
+  FaBalanceScale, 
+  FaChalkboardTeacher, 
+  FaPhone, 
+  FaEnvelope, 
+  FaWhatsapp 
+} from 'react-icons/fa'; 
+
 import './index.css';
 import royPhoto from './assets/roy-photo.jpg';
 import homeImage from './assets/home.jpg';
@@ -7,10 +16,11 @@ import homeImage from './assets/home.jpg';
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 via-white to-blue-50">
+      
       {/* Navbar */}
       <nav className="bg-gray-800 text-white p-5 shadow-md fixed top-0 w-full z-50">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Tuzungumze</h1> {/* Added content to h1 */}
+          <h1 className="text-2xl font-bold">Tuzungumze</h1>
           <ul className="flex space-x-6 font-semibold">
             <NavItem label="Home" section="home" />
             <NavItem label="About" section="about" />
@@ -140,38 +150,56 @@ function App() {
         </div>
       </section>
 
+
       {/* Contact Section */}
       <section id="contact" className="container mx-auto p-8 max-w-lg bg-white rounded-lg shadow-lg mt-16 mb-16">
-  <h2 className="text-3xl font-bold text-primary mb-6 text-center">Contact us through:</h2>
-  <div className="space-y-4 text-gray-700">
-    <div className="flex items-center">
-      <FaPhone className="text-primary text-2xl mr-3" />
-      <span>0722709200 or 0785762888</span>
-    </div>
-    <div className="flex items-start">
-      <FaEnvelope className="text-primary text-2xl mr-3" />
-      <div>
-        <a href="mailto:roymully@gmail.com" className="text-blue-600 hover:underline">roymully@gmail.com</a>
-        <br />
-        <a href="mailto:roymuli@yahoo.com" className="text-blue-600 hover:underline">roymuli@yahoo.com</a>
-      </div>
-    </div>
-  </div>
-</section>
-
+        <h2 className="text-3xl font-bold text-primary mb-6 text-center">Contact us through:</h2>
+        <div className="space-y-4 text-gray-700">
+          <div className="flex items-center">
+            <FaPhone className="text-primary text-2xl mr-3" />
+            <span>0722709200 or 0785762888</span>
+          </div>
+          <div className="flex items-center">
+            <FaWhatsapp className="text-green-500 text-2xl mr-3" />
+            <a href="https://wa.me/254722709200" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              +254 722709200 (WhatsApp)
+            </a>
+          </div>
+          <div className="flex items-start">
+            <FaEnvelope className="text-primary text-2xl mr-3" />
+            <div>
+              <a href="mailto:roymully@gmail.com" className="text-blue-600 hover:underline">roymully@gmail.com</a>
+              <br />
+              <a href="mailto:roymuli@yahoo.com" className="text-blue-600 hover:underline">roymuli@yahoo.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
     </div>
   );
 }
 
-// NavItem Component for smooth scrolling
-const NavItem = ({ label, section }) => {
-  return (
-    <li>
-      <a href={`#${section}`} className="hover:text-secondary">
-        {label}
-      </a>
-    </li>
-  );
-};
+// Navigation Item Component
+const NavItem = ({ label, section }) => (
+  <li>
+    <a href={`#${section}`} className="hover:text-secondary">
+      {label}
+    </a>
+  </li>
+);
+
+// Service Card Component
+const ServiceCard = ({ icon, title, services }) => (
+  <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+    {icon}
+    <h3 className="text-2xl font-semibold text-secondary">{title}</h3>
+    <ul className="text-gray-600 mt-2 list-disc list-inside">
+      {services.map((service, index) => (
+        <li key={index}>{service}</li>
+      ))}
+    </ul>
+  </div>
+);
 
 export default App;
