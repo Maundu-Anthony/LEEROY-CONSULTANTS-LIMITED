@@ -84,7 +84,7 @@ function App() {
               <li>Good Customer Service & Social Media Strategy.</li>
               <li>SACCO Supervisory Committee Roles & Legal Compliance.</li>
               <li>Pension Fund Governance & Compliance.</li>
-              <li>Curated Pension Fund Governance and Compliance with RBA Act Requirements Training.</li>
+              <li>Curated Pension Fund Governance & Compliance with RBA Act Requirements Training.</li>
               <li>Best practices in Pension Fund Assets Custody and Regulatory Compliance.</li>
               <li>Corporate Governance for Executives.</li>
               <li>Business Continuity Plans.</li>
