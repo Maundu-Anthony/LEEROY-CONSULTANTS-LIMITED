@@ -157,7 +157,7 @@ function App() {
         <div className="space-y-4 text-gray-700">
           <div className="flex items-center">
             <FaPhone className="text-primary text-2xl mr-3" />
-            <span>0722709200 or 0785762888</span>
+            <a href="tel:0722709200">0722709200</a> or <a href="tel:0785762888">0785762888</a>
           </div>
           <div className="flex items-center">
             <FaWhatsapp className="text-green-500 text-2xl mr-3" />
