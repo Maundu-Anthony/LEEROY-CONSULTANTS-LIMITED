@@ -142,23 +142,23 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact" className="container mx-auto p-8 max-w-lg bg-white rounded-lg shadow-lg mt-16 mb-16">
-        <h2 className="text-3xl font-bold text-primary mb-6 text-center">Contact us through:</h2>
-        <div className="space-y-4 text-gray-700">
-          <div className="flex items-center">
-            <FaPhone className="text-primary text-2xl mr-3" />
-            <span>0722709200 or 0785762888</span>
-          </div>
-          <div className="flex items-start">
-            <FaEnvelope className="text-primary text-2xl mr-3" />
-            <div>
-              <span >roymully@gmail.com</span>
-              <br />              
-              <span>roymuli@yahoo.com</span>
-            </div>
-          </div>
-          
-        </div>
-      </section>
+  <h2 className="text-3xl font-bold text-primary mb-6 text-center">Contact us through:</h2>
+  <div className="space-y-4 text-gray-700">
+    <div className="flex items-center">
+      <FaPhone className="text-primary text-2xl mr-3" />
+      <span>0722709200 or 0785762888</span>
+    </div>
+    <div className="flex items-start">
+      <FaEnvelope className="text-primary text-2xl mr-3" />
+      <div>
+        <a href="mailto:roymully@gmail.com" className="text-blue-600 hover:underline">roymully@gmail.com</a>
+        <br />
+        <a href="mailto:roymuli@yahoo.com" className="text-blue-600 hover:underline">roymuli@yahoo.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 }
