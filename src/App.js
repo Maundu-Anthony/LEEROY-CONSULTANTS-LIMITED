@@ -44,7 +44,7 @@ function App() {
         <div className="text-center">
           <h2 className="text-3xl font-semibold text-primary">About Director/Founder</h2>
           <p className="text-accent mt-2 leading-relaxed">
-            Roy Muli is a seasoned professional in finance & counseling psychology. He specializes in corporate training, management consultancy, financial marketing, resource mobilization, mental wellness, counseling services, and alternative dispute resolution.
+            Roy Muli is a seasoned professional in Finance & Counseling Psychology. He specializes in Corporate Training, Management Consultancy, Financial Marketing, Resource Mobilization, Mental Wellness, Counseling Services & Alternative Dispute Resolution.
           </p>
           <div className="flex space-x-4 mt-4 justify-center">
             <a href="#contact" className="bg-gray-200 text-primary px-4 py-2 rounded-lg">Contacts</a>
@@ -62,21 +62,31 @@ function App() {
             <FaHandshake className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Corporate Training Consultancy</h3>
             <ul className="text-gray-600 mt-2 list-disc list-inside">
-              <li>Strategic Marketing, PR & Customer Service</li>
-              <li>Digital Banking & Credit Digitization</li>
-              <li>Good Customer Service in the Digital Age</li>
-              <li>AI, PR & Data-Driven Decision Making in Customer Service</li>
-              <li>SACCOs & Supervisory Committees Training</li>
-              <li>Revolutionizing Customer Service: AI, PR, & Data-Driven Decision Making</li>
-              <li>Good Customer Service & Social Media Strategy</li>
-              <li>SACCO Supervisory Committee Roles & Legal Compliance</li>
-              <li>Pension Fund Governance & Compliance</li>
-              <li>Corporate Governance for Executives</li>
-              <li>Business Continuity Plans</li>
-              <li>Next-Gen Administrative Skills, AI-Driven Writing</li>
-              <li>Innovative Tax Strategies in Pension Funds</li>
-              <li>Public Finance Management & Tax Compliance</li>
-              <li>Mental Health & Corporate Team Building</li>
+              <li>Corporate Governance & Leadership.</li>
+              <li>Modern AI leadership skills in Digital Era.</li>
+              <li>NextGen AI leadership for C-SUITE Executives.</li>
+              <li>Strategic Marketing, PR & Customer Service.</li>
+              <li>Digital Banking & Credit Digitization.</li>
+              <li>Good Customer Service in the Digital Age.</li>
+              <li>AI, PR & Data-Driven Decision Making in Customer Service.</li>
+              <li>SACCOs & Supervisory Committees Training.</li>
+              <li>Revolutionizing Customer Service: AI, PR, & Data-Driven Decision Making.</li>
+              <li>Good Customer Service & Social Media Strategy.</li>
+              <li>SACCO Supervisory Committee Roles & Legal Compliance.</li>
+              <li>Pension Fund Governance & Compliance.</li>
+              <li>Curated Pension Fund Governance and Compliance with RBA Act Requirements Training.</li>
+              <li>Best practices in Pension Fund Assets Custody and Regulatory Compliance.</li>
+              <li>Corporate Governance for Executives.</li>
+              <li>Business Continuity Plans.</li>
+              <li>Next-Gen Administrative Skills, AI-Driven Writing.</li>
+              <li>Innovative Tax Strategies in Pension Funds.</li>
+              <li>Public Finance Management & Tax Compliance.</li>
+              <li>Modern Budget Control, PFM & Tax Compliance Mastery. Navigating the future of Public Finance Training.</li>
+              <li>Policy Formulation, Implementation and Analysis course.</li>  
+              <li>Public Policy Development, Governance & Administration Training.</li> 
+              <li>Mastering Insurance Operations & Strategy: Navigating Risk Assesment, Underwriting Claims Handling and Regulatory Compliance Excellence Training. </li>       
+              <li>Mental Health & Corporate Team Building.</li>
+              
             </ul>
           </div>
 
@@ -85,24 +95,27 @@ function App() {
             <FaBrain className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Mental Wellness Clinic</h3>
             <ul className="text-gray-600 mt-2 list-disc list-inside">
-              <li>Trauma, Loss & Grief Counseling</li>
+              <li>Trauma, Loss & Grief Counseling.</li>
               <li>Addiction Counseling (Drugs, Pornography, etc.)</li>
-              <li>Marriage Counseling & Therapy</li>
-              <li>Pre-Marital Counseling</li>
-              <li>Mentorship & Career Coaching</li>
-              <li>Psycho-Social Counseling & Peer Counseling</li>
-              <li>Stress & Burnout Management</li>
+              <li>Marriage Counseling & Therapy.</li>
+              <li>Pre-Marital Counseling.</li>
+              <li>Mentorship & Career Coaching.</li>
+              <li>Psycho-Social Counseling & Peer Counseling.</li>
+              <li>Stress & Burnout Management.</li>
+              <li>Couselling Psychology Training.</li>
+
             </ul>
           </div>
 
-          {/* Mediation (ADR) Services */}
+          {/* Mediation (Alternative Dispute Resolution) Services */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <FaBalanceScale className="text-4xl text-primary mb-4" />
-            <h3 className="text-2xl font-semibold text-secondary">Mediation (ADR) Services</h3>
+            <h3 className="text-2xl font-semibold text-secondary">Mediation (Alternative Dispute Resolution) Services</h3>
             <ul className="text-gray-600 mt-2 list-disc list-inside">
-              <li>Trade & Commercial Disputes</li>
+              <li>Trade & Commercial Disputes.</li>
               <li>Family Disputes (Inheritance, Alimony, Child disputes)</li>
-              <li>Land & Boundary Disputes</li>
+              <li>Land & Boundary Disputes.</li>
+              <li>Certified Professional Mediation Training.</li>
             </ul>
           </div>
 
@@ -111,17 +124,17 @@ function App() {
             <FaChalkboardTeacher className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Financial Marketing & Resource Mobilization</h3>
             <ul className="text-gray-600 mt-2 list-disc list-inside">
-              <li>Investment Banking & Money Market Investments</li>
-              <li>Financial Literacy & Capacity Building</li>
-              <li>Micro Credit Linkages for SMEs & SMMEs</li>
-              <li>Fund Administration & Investments</li>
-              <li>Syndicate Financing Linkages</li>
+              <li>Investment Banking & Money Market Investments.</li>
+              <li>Financial Literacy & Capacity Building.</li>
+              <li>Micro Credit Linkages for SMEs & SMMEs.</li>
+              <li>Fund Administration & Investments.</li>
+              <li>Syndicate Financing Linkages.</li>
               <li>Venture Capital Facilitation</li>
-              <li>On-shore & Offshore Finance Facilitation</li>
-              <li>Fund Raising Proposals & Project Evaluations</li>
-              <li>Entrepreneurial Skills Development</li>
-              <li>Group Dynamics Training</li>
-              <li>Value Chain & Ecosystem Development</li>
+              <li>On-shore & Offshore Finance Facilitation.</li>
+              <li>Fund Raising Proposals & Project Evaluations.</li>
+              <li>Entrepreneurial Skills Development.</li>
+              <li>Group Dynamics Training.</li>
+              <li>Value Chain & Ecosystem Development.</li>
             </ul>
           </div>
         </div>
@@ -138,9 +151,9 @@ function App() {
           <div className="flex items-start">
             <FaEnvelope className="text-primary text-2xl mr-3" />
             <div>
+              <span >roymully@gmail.com</span>
+              <br />              
               <span>roymuli@yahoo.com</span>
-              <br />
-              <span>roymully@gmail.com</span>
             </div>
           </div>
           
