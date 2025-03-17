@@ -92,7 +92,7 @@ function App() {
               <li>Innovative Tax Strategies in Pension Funds.</li>
               <li>Public Finance Management & Tax Compliance.</li>
               <li>Modern Budget Control, PFM & Tax Compliance Mastery. Navigating the future of Public Finance Training.</li>
-              <li>Policy Formulation, Implementation and Analysis course.</li>  
+              <li>Policy Formulation, Implementation & Analysis course.</li>  
               <li>Public Policy Development, Governance & Administration Training.</li> 
               <li>Mastering Insurance Operations & Strategy: Navigating Risk Assesment, Underwriting Claims Handling and Regulatory Compliance Excellence Training. </li>       
               <li>Mental Health & Corporate Team Building.</li>
