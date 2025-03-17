@@ -72,7 +72,7 @@ function App() {
             <FaHandshake className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Corporate Training Consultancy</h3>
             <ul className="text-gray-600 mt-2 list-disc list-inside">
-              <li>Corporate Governance & Leadership Consultancy.</li>
+              <li>Corporate Governance & Leadership Training.</li>
               <li>Modern AI leadership skills in Digital Era.</li>
               <li>NextGen AI leadership for C-SUITE Executives.</li>
               <li>Strategic Marketing, PR & Customer Service.</li>
