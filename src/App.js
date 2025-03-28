@@ -67,6 +67,33 @@ function App() {
       <section id="services" className="container mx-auto p-8 text-center mt-16">
         <h2 className="text-4xl font-bold text-primary mb-8">Our Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          {/* Financial Marketing & Resource Mobilization */}
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <FaChalkboardTeacher className="text-4xl text-primary mb-4" />
+            <h3 className="text-2xl font-semibold text-secondary">Financial Marketing & Resource Mobilization</h3>
+            <ul className="text-gray-600 mt-2 list-disc list-inside">
+              <li>Investment Banking & Money Market Investments.</li>
+              <li>Financial Literacy & Capacity Building.</li>
+              <li>Micro Credit Linkages for SMEs & SMMEs.</li>
+              <li>Fund Administration & Investments.</li>
+              <li>Syndicate Financing Linkages.</li>
+              <li>Venture Capital Facilitation</li>
+              <li>On-shore & Offshore Finance Facilitation.</li>
+              <li>Fund Raising Proposals & Project Evaluations.</li>
+              <li>Entrepreneurial Skills Development.</li>
+              <li>Group Dynamics Training.</li>
+              <li>Value Chain & Ecosystem Development.</li>
+              <li>Investments in Money market Funds.</li>
+              <li>Investments in Commodity Markets - Drop shipping.</li>
+              <li>Investments in Stocks & Securities.</li>
+              <li>Investments in Bonds (Private, Government & Infrastructure Bonds)</li>
+            
+            </ul>
+          </div>
+
+
+
           {/* Corporate Training Consultancy */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <FaHandshake className="text-4xl text-primary mb-4" />
@@ -83,6 +110,9 @@ function App() {
               <li>Revolutionizing Customer Service: AI, PR, & Data-Driven Decision Making.</li>
               <li>Good Customer Service & Social Media Strategy.</li>
               <li>SACCO Supervisory Committee Roles & Legal Compliance.</li>
+              <li>Consultancy on Cooperative SACCOS' Modern AI Corporate Governance Structures.</li>
+              <li>Corporate Governance and Modern AI Leadership in Cooperative Societies (SACCOS).</li>
+              <li>SACCOS-Roles & Effectiveness of SACCO Supervisory Committees -Legal Compliance, Interpretation of Financial Reports, Basic Accounting & Basic Auditing & Report Writing Skills Training,</li>
               <li>Pension Fund Governance & Compliance.</li>
               <li>Curated Pension Fund Governance & Compliance with RBA Act Requirements Training.</li>
               <li>Best practices in Pension Fund Assets Custody & Regulatory Compliance.</li>
@@ -129,24 +159,7 @@ function App() {
             </ul>
           </div>
 
-          {/* Financial Marketing & Resource Mobilization */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <FaChalkboardTeacher className="text-4xl text-primary mb-4" />
-            <h3 className="text-2xl font-semibold text-secondary">Financial Marketing & Resource Mobilization</h3>
-            <ul className="text-gray-600 mt-2 list-disc list-inside">
-              <li>Investment Banking & Money Market Investments.</li>
-              <li>Financial Literacy & Capacity Building.</li>
-              <li>Micro Credit Linkages for SMEs & SMMEs.</li>
-              <li>Fund Administration & Investments.</li>
-              <li>Syndicate Financing Linkages.</li>
-              <li>Venture Capital Facilitation</li>
-              <li>On-shore & Offshore Finance Facilitation.</li>
-              <li>Fund Raising Proposals & Project Evaluations.</li>
-              <li>Entrepreneurial Skills Development.</li>
-              <li>Group Dynamics Training.</li>
-              <li>Value Chain & Ecosystem Development.</li>
-            </ul>
-          </div>
+          
         </div>
       </section>
 
