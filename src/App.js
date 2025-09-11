@@ -72,24 +72,24 @@ function App() {
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <FaChalkboardTeacher className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Financial Marketing & Resource Mobilization</h3>
-            <ul className="text-gray-600 mt-2 list-disc list-outside pl-6 text-left">
-              <li>Investment Banking & Money Market Investments.</li>
-              <li>Financial Literacy & Capacity Building.</li>
+            <ol className="text-gray-600 mt-2 list-decimal list-outside pl-6 text-left">
+              <li>Project Financing & Joint Venture Consultants.</li>
               <li>Micro Credit Linkages for SMEs & SMMEs.</li>
               <li>Fund Administration & Investments.</li>
               <li>Syndicate Financing Linkages.</li>
-            <li>Venture Capital Facilitation.</li>
-            <li>On-shore & Offshore Finance Facilitation.</li>
-            <li>Fund Raising Proposals & Project Evaluations.</li>
-            <li>Entrepreneurial Skills Development.</li>
-            <li>Group Dynamics Training.</li>
-            <li>Value Chain & Ecosystem Development.</li>
-            <li>Investments in Money market Funds.</li>
-            <li>Investments in Commodity Markets - Drop shipping.</li>
-            <li>Investments in Stocks & Securities.</li>
-            <li>Investments in Bonds (Private, Government & Infrastructure Bonds).</li>
-            
-            </ul>
+              <li>Venture Capital Facilitation.</li>
+              <li>On-shore & Offshore Finance Facilitation.</li>
+              <li>Fund Raising Proposals & Project Evaluations.</li>
+              <li>Investment Banking & Money Market Investments.</li>
+              <li>Financial Literacy & Capacity Building.</li>
+              <li>Entrepreneurial Skills Development.</li>
+              <li>Group Dynamics Training.</li>
+              <li>Value Chain & Ecosystem Development.</li>
+              <li>Investments in Money market Funds.</li>
+              <li>Investments in Commodity Markets - Drop shipping.</li>
+              <li>Investments in Stocks & Securities.</li>
+              <li>Investments in Bonds (Private, Government & Infrastructure Bonds).</li>
+            </ol>
           </div>
 
 
@@ -159,7 +159,7 @@ function App() {
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <FaBrain className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Mental Wellness Clinic</h3>
-            <ul className="text-gray-600 mt-2 list-disc list-outside pl-6 text-left">
+            <ol className="text-gray-600 mt-2 list-decimal list-outside pl-6 text-left">
               <li>Trauma, Loss & Grief Counseling.</li>
               <li>Addiction Counseling (Drugs, Pornography, etc.)</li>
               <li>Marriage Counseling & Therapy.</li>
@@ -168,20 +168,19 @@ function App() {
               <li>Psycho-Social Counseling & Peer Counseling.</li>
               <li>Stress & Burnout Management.</li>
               <li>Couselling Psychology Training.</li>
-
-            </ul>
+            </ol>
           </div>
 
           {/* Mediation (Alternative Dispute Resolution) Services */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <FaBalanceScale className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Mediation (Alternative Dispute Resolution) Services</h3>
-            <ul className="text-gray-600 mt-2 list-disc list-outside pl-6 text-left">
+            <ol className="text-gray-600 mt-2 list-decimal list-outside pl-6 text-left">
               <li>Trade & Commercial Disputes.</li>
               <li>Family Disputes (Inheritance, Alimony, Child disputes)</li>
               <li>Land & Boundary Disputes.</li>
               <li>Certified Professional Mediation Training.</li>
-            </ul>
+            </ol>
           </div>
 
           
