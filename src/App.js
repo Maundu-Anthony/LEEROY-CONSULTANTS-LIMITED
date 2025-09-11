@@ -64,7 +64,7 @@ function App() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="container mx-auto p-8 text-center mt-16">
+  <section id="services" className="container mx-auto p-8 mt-16">
         <h2 className="text-4xl font-bold text-primary mb-8">Our Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
@@ -72,69 +72,94 @@ function App() {
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <FaChalkboardTeacher className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Financial Marketing & Resource Mobilization</h3>
-            <ul className="text-gray-600 mt-2 list-disc list-inside">
+            <ul className="text-gray-600 mt-2 list-disc list-outside pl-6 text-left">
               <li>Investment Banking & Money Market Investments.</li>
               <li>Financial Literacy & Capacity Building.</li>
               <li>Micro Credit Linkages for SMEs & SMMEs.</li>
               <li>Fund Administration & Investments.</li>
               <li>Syndicate Financing Linkages.</li>
-              <li>Venture Capital Facilitation</li>
-              <li>On-shore & Offshore Finance Facilitation.</li>
-              <li>Fund Raising Proposals & Project Evaluations.</li>
-              <li>Entrepreneurial Skills Development.</li>
-              <li>Group Dynamics Training.</li>
-              <li>Value Chain & Ecosystem Development.</li>
-              <li>Investments in Money market Funds.</li>
-              <li>Investments in Commodity Markets - Drop shipping.</li>
-              <li>Investments in Stocks & Securities.</li>
-              <li>Investments in Bonds (Private, Government & Infrastructure Bonds)</li>
+            <li>Venture Capital Facilitation.</li>
+            <li>On-shore & Offshore Finance Facilitation.</li>
+            <li>Fund Raising Proposals & Project Evaluations.</li>
+            <li>Entrepreneurial Skills Development.</li>
+            <li>Group Dynamics Training.</li>
+            <li>Value Chain & Ecosystem Development.</li>
+            <li>Investments in Money market Funds.</li>
+            <li>Investments in Commodity Markets - Drop shipping.</li>
+            <li>Investments in Stocks & Securities.</li>
+            <li>Investments in Bonds (Private, Government & Infrastructure Bonds).</li>
             
             </ul>
           </div>
 
 
 
-          {/* Corporate Training Consultancy */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <FaHandshake className="text-4xl text-primary mb-4" />
-            <h3 className="text-2xl font-semibold text-secondary">Corporate Training Consultancy</h3>
-            <ul className="text-gray-600 mt-2 list-disc list-inside">
-              <li>Corporate Governance & Leadership Training.</li>
-              <li>Modern AI leadership skills in Digital Era.</li>
-              <li>NextGen AI leadership for C-SUITE Executives.</li>
-              <li>Strategic Marketing, PR & Customer Service.</li>
-              <li>Digital Banking & Credit Digitization.</li>
-              <li>Good Customer Service in the Digital Age.</li>
-              <li>AI, PR & Data-Driven Decision Making in Customer Service.</li>
-              <li>SACCOs & Supervisory Committees Training.</li>
-              <li>Revolutionizing Customer Service: AI, PR, & Data-Driven Decision Making.</li>
-              <li>Good Customer Service & Social Media Strategy.</li>
-              <li>SACCO Supervisory Committee Roles & Legal Compliance.</li>
-              <li>Consultancy on Cooperative SACCOS' Modern AI Corporate Governance Structures.</li>
-              <li>Corporate Governance and Modern AI Leadership in Cooperative Societies (SACCOS).</li>
-              <li>SACCOS-Roles & Effectiveness of SACCO Supervisory Committees -Legal Compliance, Interpretation of Financial Reports, Basic Accounting & Basic Auditing & Report Writing Skills Training,</li>
-              <li>Pension Fund Governance & Compliance.</li>
-              <li>Curated Pension Fund Governance & Compliance with RBA Act Requirements Training.</li>
-              <li>Best practices in Pension Fund Assets Custody & Regulatory Compliance.</li>
-              <li>Corporate Governance for Executives.</li>
-              <li>Business Continuity Plans.</li>
-              <li>Next-Gen Administrative Skills, AI-Driven Writing.</li>
-              <li>Innovative Tax Strategies in Pension Funds.</li>
-              <li>Public Finance Management & Tax Compliance.</li>
-              <li>Modern Budget Control, PFM & Tax Compliance Mastery. Navigating the future of Public Finance Training.</li>
-              <li>Policy Formulation, Implementation & Analysis course.</li>  
-              <li>Public Policy Development, Governance & Administration Training.</li> 
-              <li>Mastering Insurance Operations & Strategy: Navigating Risk Assesment, Underwriting Claims Handling and Regulatory Compliance Excellence Training. </li>       
-              <li>Mental Health & Corporate Team Building.</li>
-              
-            </ul>
-          </div>
+         {/* Corporate Training Consultancy */}
+<div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+  <FaHandshake className="text-4xl text-primary mb-4" />
+  <h3 className="text-2xl font-semibold text-secondary">Corporate Training Consultancy</h3>
+  <ol className="text-gray-600 mt-2 list-decimal list-outside pl-6 text-left">
+    <li><b>Corporate Governance & Leadership for BOARD OF DIRECTORS</b>
+      <ul className="list-disc pl-6">
+        <li>ADAPTATIVE AI LEADERSHIP & Governance for C-SUITE EXECUTIVES, (Senior & Middle Managers) Master Class.</li>
+        <li>Next-Gen Administrative skills for Admin Assistants for C-SUITE EXECUTIVES.</li>
+        <li>Legal leadership & Strategic Advisory Master class, Drafting Advisory Litigation, Strategic Governance Boardroom Excellence.</li>
+        <li>Master class Record Management standards & Best practices, Disposal, Data protection & Security for Public & Private Sector Professionals.</li>
+      </ul>
+    </li>
+    <li><b>Digital Banking</b>
+      <ul className="list-disc pl-6">
+        <li>AI integrated Digital Banking, Marketing, PR & Customer Service.</li>
+        <li>Data Protection & Cyber Security Training.</li>
+        <li>Credit digitization and Modern AI Marketing PR & Communication Tools.</li>
+        <li>Security realization for Non-performing loans & Insolvency Management Masterclass.</li>
+        <li>Distressed Investment Recovery & Revival Master class.</li>
+      </ul>
+    </li>
+    <li><b>Digital Marketing, PR & Customer Service Integrated with AI</b>
+      <ul className="list-disc pl-6">
+        <li>AI Integrated Digital Marketing Strategy, PR, Customer Service and Modern Leadership in the Competitive Digital Age Training.</li>
+        <li>Integrating AI with Modern Marketing Strategies & Techniques, Public Relations & Communications.</li>
+        <li>Strategic Marketing Techniques for AI, Brand & Revenue Growth in the Digital Era Training.</li>
+      </ul>
+    </li>
+    <li><b>Revolutionizing Customer Service: AI, PR, & Data-Driven Decision Making in Customer Service</b>
+      <ul className="list-disc pl-6">
+        <li>Good Customer Service in the Competitive Digital Age & Innovative Social Media Strategy Training.</li>
+        <li>Modern AI Customer Centric Customer Service in the Competitive Digital Age.</li>
+      </ul>
+    </li>
+    <li><b>Pension Funds Management, Investment & Administration</b>
+      <ul className="list-disc pl-6">
+        <li>Curated Pension fund governance & Compliance with RBA Act requirements.</li>
+        <li>Best practices in Pension funds assets custody & regulatory compliance.</li>
+      </ul>
+    </li>
+    <li><b>Investments in Money Market Funds, Commodity Markets (Drop shipping), Stocks & Securities, Bonds (Private, Government & Infrastructure Bonds) & FOREX Trading</b></li>
+    <li><b>Retirement - Pre & Post retirement preparation & Modern AI Transition planning</b></li>
+    <li><b>Public Finance Management & Taxation Compliance</b>
+      <ul className="list-disc pl-6">
+        <li>Modern Budget controls, PFM & Tax compliance Mastery.</li>
+      </ul>
+    </li>
+    <li><b>Consultant/ Training and Mentorship services for Micro, Small and Medium Enterprises (SMEs)</b></li>
+    <li><b>CO-OPERATIVE SOCIETIES (SACCOS) Corporate Governance and Modern AI Leadership training</b>
+      <ul className="list-disc pl-6">
+        <li>SACCOs - Roles & Effectiveness of SACCO Supervisory Committees - Legal Compliance, Interpretation of Financial Reports, Basic Accounting & Basic Auditing & Report Writing Capacity Building.</li>
+        <li>Modern AI Adaptive leadership in Cooperative Societies (SACCOS) in current DIGITAL AGE.</li>
+      </ul>
+    </li>
+    <li><b>Corporate Trainer Counseling Psychology and a Counselling Psychologist</b></li>
+  </ol>
+</div>
+
+
 
           {/* Mental Wellness Clinic */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <FaBrain className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Mental Wellness Clinic</h3>
-            <ul className="text-gray-600 mt-2 list-disc list-inside">
+            <ul className="text-gray-600 mt-2 list-disc list-outside pl-6 text-left">
               <li>Trauma, Loss & Grief Counseling.</li>
               <li>Addiction Counseling (Drugs, Pornography, etc.)</li>
               <li>Marriage Counseling & Therapy.</li>
@@ -151,7 +176,7 @@ function App() {
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <FaBalanceScale className="text-4xl text-primary mb-4" />
             <h3 className="text-2xl font-semibold text-secondary">Mediation (Alternative Dispute Resolution) Services</h3>
-            <ul className="text-gray-600 mt-2 list-disc list-inside">
+            <ul className="text-gray-600 mt-2 list-disc list-outside pl-6 text-left">
               <li>Trade & Commercial Disputes.</li>
               <li>Family Disputes (Inheritance, Alimony, Child disputes)</li>
               <li>Land & Boundary Disputes.</li>
@@ -207,7 +232,7 @@ const ServiceCard = ({ icon, title, services }) => (
   <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
     {icon}
     <h3 className="text-2xl font-semibold text-secondary">{title}</h3>
-    <ul className="text-gray-600 mt-2 list-disc list-inside">
+  <ul className="text-gray-600 mt-2 list-disc list-outside pl-6 text-left">
       {services.map((service, index) => (
         <li key={index}>{service}</li>
       ))}
