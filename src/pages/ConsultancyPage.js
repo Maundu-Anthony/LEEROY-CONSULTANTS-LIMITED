@@ -1,147 +1,182 @@
 import React from 'react';
 
+// eslint-disable-next-line no-unused-vars
+const ServiceCard = () => {
+  return null; // placeholder, not used
+};
+
 function ConsultancyPage() {
   return (
     <div className="container mx-auto p-8 text-gray-700">
-      <h1 className="text-4xl font-bold text-primary mb-6">Tuzugumuze Consultants Limited</h1>
-      <h2 className="text-2xl font-semibold text-secondary mb-4">Director and Founder</h2>
-      <ul className="list-disc pl-8 text-lg mb-6">
-        <li>Corporate Trainers & Management Consultants</li>
-        <li>Financial Marketing & Resources Mobilization Consultants</li>
-        <li>Counseling Psychologist, Life Coach & Mentor</li>
-        <li>Mediator – Certified Professional Mediator (CPM)</li>
-      </ul>
+      <h1 className="text-4xl font-bold text-primary mb-6">
+        Tuzugumuze Consultants Limited
+      </h1>
 
-      <h3 className="text-3xl font-semibold text-primary mb-4">Consultancy Services Offered</h3>
+      <h3 className="text-3xl font-semibold text-primary mb-4">
+        Consultancy Services Offered
+      </h3>
 
-      {/* Corporate Training Consultancy Section */}
       <div className="mb-8">
-        <h4 className="text-2xl font-semibold text-secondary mb-4">A. Corporate Training Consultancy</h4>
-        <ul className="list-disc pl-8 text-lg mb-6">
-          <li><strong>Strategic Marketing, PR & Customer Service</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Digital Banking & Credit Digitization - Transforming Financial Landscape</li>
-            <li>Integrating Marketing Strategies & Techniques, Public Relations & Good Customer Service in the Competitive Digital Age</li>
-            <li>Revolutionizing Customer Service: AI, PR, & Data-Driven Decision Making</li>
-            <li>Good Customer Service: Redefining Customer Obsession</li>
-            <li>SACCOS: Roles & Effectiveness of SACCO Supervisory Committees</li>
-          </ul>
+        <ul className="list-decimal pl-8 text-lg space-y-6">
+          <li>
+            <strong>Corporate Governance & Leadership for Board of Directors</strong>
+            <ul className="list-disc pl-8 mt-2">
+              <li>
+                Adaptive AI Leadership & Governance for C-Suite Executives
+                (Senior & Middle Managers) Master Class
+              </li>
+              <li>
+                Next-Gen Administrative Skills for Admin Assistants for C-Suite
+                Executives
+              </li>
+              <li>
+                Legal Leadership & Strategic Advisory Master Class, Drafting
+                Advisory Litigation, Strategic Governance Boardroom Excellence
+              </li>
+              <li>
+                Master Class on Record Management Standards & Best Practices,
+                Disposal, Data Protection & Security for Public & Private Sector
+                Professionals
+              </li>
+            </ul>
+          </li>
 
-          <li><strong>Pension Management</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Curated Pension Fund Governance & Compliance with RBA Act Requirements</li>
-            <li>Pension Administration, Fund Investment & Governance, and AI Integration in the Modern Digital Era</li>
-            <li>Best Practices in Pension Fund Assets Custody & Regulatory Compliance</li>
-            <li>Innovative Tax Strategies in Pension Funds Management</li>
-            <li>Trustee Training Appointment and Prudential Roles</li>
-          </ul>
+          <li>
+            <strong>Digital Banking</strong>
+            <ul className="list-disc pl-8 mt-2">
+              <li>AI Integrated Digital Banking, Marketing, PR & Customer Service</li>
+              <li>Data Protection & Cyber Security Training</li>
+              <li>
+                Credit Digitization and Modern AI Marketing, PR & Communication
+                Tools
+              </li>
+              <li>
+                Security Realization for Non-Performing Loans & Insolvency
+                Management Master Class
+              </li>
+              <li>Distressed Investment Recovery & Revival Master Class</li>
+            </ul>
+          </li>
 
-          <li><strong>Leadership</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Corporate Governance for Executives and Non-Executive Board Members</li>
-            <li>Business Continuity Plans Training</li>
-            <li>Next-Gen Administrative Skills, AI-Driven Writing, Communication & Etiquette</li>
-          </ul>
+          <li>
+            <strong>
+              Digital Marketing, PR & Customer Service Integrated with AI
+            </strong>
+            <ul className="list-disc pl-8 mt-2">
+              <li>
+                AI Integrated Digital Marketing Strategy, PR, Customer Service,
+                and Modern Leadership in the Competitive Digital Age Training
+              </li>
+              <li>
+                Integrating AI with Modern Marketing Strategies & Techniques,
+                Public Relations & Communications
+              </li>
+              <li>
+                Strategic Marketing Techniques for AI, Brand & Revenue Growth in
+                the Digital Era Training
+              </li>
+            </ul>
+          </li>
 
-          <li><strong>Public Finance Management</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Modern Budget Control, PFM & Tax Compliance Mastery</li>
-            <li>Public Finance Training, Policy Formulation, Implementation & Analysis</li>
-            <li>Public Finance Training, Public Policy Development, Governance, and Administration</li>
-          </ul>
+          <li>
+            <strong>
+              Revolutionizing Customer Service: AI, PR, & Data-Driven Decision
+              Making
+            </strong>
+            <ul className="list-disc pl-8 mt-2">
+              <li>
+                Good Customer Service in the Competitive Digital Age & Innovative
+                Social Media Strategy Training
+              </li>
+              <li>
+                Modern AI Customer-Centric Customer Service in the Competitive
+                Digital Age
+              </li>
+            </ul>
+          </li>
 
-          <li><strong>Mental Health Training & Corporate Team Building</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Mental Wellness & Self-Awareness Training</li>
-            <li>Stress & Burnout Management Training</li>
-            <li>Corporate Team Building</li>
-          </ul>
-        </ul>
-      </div>
+          <li>
+            <strong>Pension Funds Management, Investment & Administration</strong>
+            <ul className="list-disc pl-8 mt-2">
+              <li>
+                Curated Pension Fund Governance & Compliance with RBA Act
+                Requirements
+              </li>
+              <li>
+                Best Practices in Pension Fund Assets Custody & Regulatory
+                Compliance
+              </li>
+            </ul>
+          </li>
 
-      {/* Financial Marketing & Resources Mobilization Section */}
-      <div className="mb-8">
-        <h4 className="text-2xl font-semibold text-secondary mb-4">B. Financial Marketing & Resources Mobilization Consultancy</h4>
-        <ul className="list-disc pl-8 text-lg mb-6">
-          <li>Resources Mobilization, Fundraising Proposals & Project Proposals/Evaluations</li>
-          <li>Investment Banking & Money Market Investments</li>
-          <li>Fund Administration & Investments</li>
-          <li>Revolving Fund Administration</li>
-          <li>Syndicate Financing Linkages</li>
-          <li>Venture Capital Facilitation</li>
-          <li>On-shore & Offshore Finance Facilitation</li>
-          <li>Micro Credit Linkages for SMEs & SMMEs</li>
-          <li>Financial Literacy & Capacity Building Training</li>
-          <ul className="list-disc pl-8">
-            <li>Entrepreneurial Skills Development</li>
-            <li>Basic Bookkeeping Training</li>
-            <li>Group Dynamics Training</li>
-            <li>Value Chain & Eco-system Development Training</li>
-          </ul>
-          <li>Market and Marketing Linkages</li>
-        </ul>
-      </div>
+          <li>
+            <strong>Investments</strong> in Money Market Funds, Commodity Markets
+            (Drop Shipping), Stocks & Securities, Bonds (Private, Government &
+            Infrastructure Bonds), & FOREX Trading
+          </li>
 
-      {/* Mental Wellness Clinic Section */}
-      <div className="mb-8">
-        <h4 className="text-2xl font-semibold text-secondary mb-4">C. Mental Wellness Clinic</h4>
-        <ul className="list-disc pl-8 text-lg mb-6">
-          <li><strong>Trauma, Loss & Grief Counseling</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Loss of a Loved One</li>
-            <li>Sexual and Gender-Based Violence (SGBV) Counseling</li>
-            <li>Retirement, Retrenchment, and Loss of Jobs Therapies</li>
-          </ul>
+          <li>
+            <strong>Retirement</strong> - Pre & Post Retirement Preparation &
+            Modern AI Transition Planning
+          </li>
 
-          <li><strong>Addiction Counseling</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Drugs and Substance Abuse</li>
-            <li>Pornography and Masturbation</li>
-            <li>LGBTQ</li>
-            <li>Cultism</li>
-            <li>Radicalization</li>
-          </ul>
+          <li>
+            <strong>Public Finance Management & Taxation Compliance</strong>
+            <ul className="list-disc pl-8 mt-2">
+              <li>Modern Budget Controls, PFM & Tax Compliance Mastery</li>
+              <li>
+                Public Policy Development, Governance & Administration Training
+              </li>
+              <li>
+                Public Policy Formulation, Implementation & Analysis Course
+              </li>
+            </ul>
+          </li>
 
-          <li><strong>Marriage Counseling & Therapies</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Pre-Marital Counseling</li>
-            <li>Marriage Counseling</li>
-            <li>Marriage Therapy</li>
-          </ul>
+          <li>
+            <strong>
+              Consultant / Training and Mentorship Services
+            </strong>{' '}
+            for Micro, Small and Medium Enterprises (SMEs & MSMEs)
+          </li>
 
-          <li><strong>Mentorship</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Career Coaching</li>
-            <li>Seasoned Trainer on Peer Counseling</li>
-            <li>Team Building for Students and Working Staff</li>
-          </ul>
+          <li>
+            <strong>
+              Co-Operative Societies (SACCOs) Corporate Governance & Modern AI
+              Leadership Training
+            </strong>
+            <ul className="list-disc pl-8 mt-2">
+              <li>
+                Roles & Effectiveness of SACCO Supervisory Committees – Legal
+                Compliance, Interpretation of Financial Reports, Basic
+                Accounting, Auditing & Report Writing Capacity Building
+              </li>
+              <li>
+                Modern AI Adaptive Leadership in Cooperative Societies (SACCOs)
+                in the Current Digital Age
+              </li>
+            </ul>
+          </li>
 
-          <li><strong>Individual and Group Counseling</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Comprehensive Psycho-social Counseling</li>
-          </ul>
-        </ul>
-      </div>
-
-      {/* Mediation Section */}
-      <div className="mb-8">
-        <h4 className="text-2xl font-semibold text-secondary mb-4">D. Mediation - Alternative Dispute Resolution (ADR)</h4>
-        <ul className="list-disc pl-8 text-lg mb-6">
-          <li><strong>Trade and Commercial Disputes</strong></li>
-          <li><strong>Family Disputes</strong></li>
-          <ul className="list-disc pl-8">
-            <li>Inheritance & Alimony Disputes</li>
-            <li>Child Disputes</li>
-          </ul>
-          <li><strong>Land and Boundary Disputes</strong></li>
+          <li>
+            <strong>Corporate Trainer in Counseling Psychology</strong> and a{' '}
+            <strong>Counseling Psychologist</strong>
+          </li>
         </ul>
       </div>
 
       {/* Contact Section */}
       <div className="text-center mt-8">
-        <h3 className="text-2xl font-semibold text-primary mb-4">Booking Contact:</h3>
+        <h3 className="text-2xl font-semibold text-primary mb-4">
+          Booking Contact:
+        </h3>
         <p className="text-lg mb-2">Cell: 0722709200 or 0785762888</p>
-        <p className="text-lg">Email: <a href="mailto:roymuli@yahoo.com" className="text-primary">roymuli@yahoo.com</a></p>
+        <p className="text-lg">
+          Email:{' '}
+          <a href="mailto:roymuli@yahoo.com" className="text-primary">
+            roymuli@yahoo.com
+          </a>
+        </p>
       </div>
     </div>
   );
