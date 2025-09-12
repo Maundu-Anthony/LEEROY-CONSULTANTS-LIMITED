@@ -138,9 +138,11 @@ function App() {
     <li><b>Investments in Money Market Funds, Commodity Markets (Drop shipping), Stocks & Securities, Bonds (Private, Government & Infrastructure Bonds) & FOREX Trading</b></li>
     <li><b>Retirement - Pre & Post retirement preparation & Modern AI Transition planning</b></li>
     <li><b>Public Finance Management & Taxation Compliance</b>
-      <ul className="list-disc pl-6">
+      <ol className="list-[lower-alpha] pl-6">
         <li>Modern Budget controls, PFM & Tax compliance Mastery.</li>
-      </ul>
+        <li>Public Policy Development, Governance & Administration training.</li>
+        <li>Public Policy Formulation, Implementation & Analysis course.</li>
+      </ol>
     </li>
     <li><b>Consultant/ Training and Mentorship services for Micro, Small and Medium Enterprises (SMEs)</b></li>
     <li><b>CO-OPERATIVE SOCIETIES (SACCOS) Corporate Governance and Modern AI Leadership training</b>
