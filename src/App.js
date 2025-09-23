@@ -20,7 +20,7 @@ function App() {
       {/* Navbar */}
       <nav className="bg-gray-800 text-white p-5 shadow-md fixed top-0 w-full z-50">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Tuzungumze</h1>
+          <h1 className="text-2xl font-bold">LEEROY CONSULTANTS</h1>
           <ul className="flex space-x-6 font-semibold">
             <NavItem label="Home" section="home" />
             <NavItem label="About" section="about" />
@@ -38,8 +38,8 @@ function App() {
       >
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="relative container mx-auto flex flex-col items-center justify-center h-full text-white text-center">
-          <h1 className="text-5xl font-extrabold leading-tight mb-4">Tuzungumze Consultants Limited</h1>
-          <p className="text-lg text-white mb-8">Tuzungumze na Tusalimiane</p>
+          <h1 className="text-5xl font-extrabold leading-tight mb-4">LEEROY CONSULTANTS</h1>
+          <p className="text-lg text-white mb-8">Professional Consulting Services</p>
           <a href="#about" className="bg-secondary text-white px-6 py-3 rounded-lg">Learn More</a>
         </div>
       </section>
@@ -226,19 +226,6 @@ const NavItem = ({ label, section }) => (
       {label}
     </a>
   </li>
-);
-
-// Service Card Component
-const ServiceCard = ({ icon, title, services }) => (
-  <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-    {icon}
-    <h3 className="text-2xl font-semibold text-secondary">{title}</h3>
-  <ul className="text-gray-600 mt-2 list-disc list-outside pl-6 text-left">
-      {services.map((service, index) => (
-        <li key={index}>{service}</li>
-      ))}
-    </ul>
-  </div>
 );
 
 export default App;
