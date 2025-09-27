@@ -12,7 +12,7 @@ const Navbar = () => {
     { label: 'Corporate Training', path: '/services/corporate-training' },
     { label: 'Mental Wellness', path: '/services/mental-wellness' },
     { label: 'Dispute Resolution', path: '/services/dispute-resolution' },
-    { label: 'Contact', path: '/contact' }
+    { label: 'Contact Us', path: '/contact' }
   ];
 
   const toggleMenu = () => {
@@ -61,7 +61,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       <div className={`md:hidden transition-all duration-300 overflow-hidden ${
-        isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+        isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
       }`}>
         <ul className="bg-gray-800 border-t border-gray-700 mt-5 py-4 space-y-2">
           {navItems.map((item) => (
