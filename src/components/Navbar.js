@@ -12,6 +12,7 @@ const Navbar = () => {
     { label: 'Corporate Training', path: '/services/corporate-training' },
     { label: 'Mental Wellness', path: '/services/mental-wellness' },
     { label: 'Dispute Resolution', path: '/services/dispute-resolution' },
+    { label: 'Social Media Marketing', path: '/services/social-media-marketing' },
     { label: 'Contact Us', path: '/contact' }
   ];
 

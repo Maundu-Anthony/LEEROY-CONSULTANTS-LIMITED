@@ -8,6 +8,7 @@ import FinancialMarketingPage from './pages/FinancialMarketingPage';
 import CorporateTrainingPage from './pages/CorporateTrainingPage';
 import MentalWellnessPage from './pages/MentalWellnessPage';
 import DisputeResolutionPage from './pages/DisputeResolutionPage';
+import SocialMediaMarketingPage from './pages/SocialMediaMarketingPage';
 import './index.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/services/corporate-training" element={<CorporateTrainingPage />} />
           <Route path="/services/mental-wellness" element={<MentalWellnessPage />} />
           <Route path="/services/dispute-resolution" element={<DisputeResolutionPage />} />
+          <Route path="/services/social-media-marketing" element={<SocialMediaMarketingPage />} />
         </Routes>
       </div>
     </Router>
