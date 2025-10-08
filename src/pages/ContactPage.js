@@ -155,7 +155,7 @@ const ContactPage = () => {
           <h3 className="text-lg font-semibold text-red-800 mb-2">Emergency Mental Health Support</h3>
           <p className="text-red-700">
             If you're experiencing a mental health crisis, please don't wait. Contact us immediately at 
-            <a href="tel:+254722709200" className="font-semibold underline ml-1">+254 722709200</a> 
+            <a href="tel:+254722709200/ +254 785762888" className="font-semibold underline ml-1">+254 722709200</a> 
             or reach out to local emergency services.
           </p>
         </div>
